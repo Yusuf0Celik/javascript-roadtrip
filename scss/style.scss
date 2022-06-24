@@ -16,6 +16,12 @@ body {
   color: abstract.$light-color;
 }
 
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
 .card {
   padding: 1rem;
   background-color: rgba($color: rgb(255, 255, 255), $alpha: 0.2);
@@ -26,12 +32,14 @@ body {
 
   p {
     width: 25ch;
+    margin-top: 1rem;
   }
 
   a {
     background-color: rgb(79, 255, 73);
     color: abstract.$light-color;
     padding: .25rem 1rem;
+    margin-top: 1rem;
     justify-self: end;
     text-align: center;
   }
