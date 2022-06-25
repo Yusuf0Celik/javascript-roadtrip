@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+  <title>Weather App</title>
+</head>
+<body>
+  <div class="time text-center">Maandag 16:31 8 januari</div>
+  <div class="input-field d-flex justify-content-center my-3">
+    <input type="text" class="input" placeholder="Type Country">
+    <button class="input-btn btn bg-white">
+      <svg xmlns="http://www.w3.org/2000/svg" class="ionicon s-ion-icon" viewBox="0 0 512 512"><title>Search</title><path d="M456.69 421.39L362.6 327.3a173.81 173.81 0 0034.84-104.58C397.44 126.38 319.06 48 222.72 48S48 126.38 48 222.72s78.38 174.72 174.72 174.72A173.81 173.81 0 00327.3 362.6l94.09 94.09a25 25 0 0035.3-35.3zM97.92 222.72a124.8 124.8 0 11124.8 124.8 124.95 124.95 0 01-124.8-124.8z"></path></svg>
+    </button>
+  </div>
+  <div class="weatherapp weatherapp-content mx-auto px-4 py-3">
+    <div class="weather-icon text-center">
+    </div>
+    <div class="celsius text-center"><h1>-4</h1></div>
+    <div class="country text-center"></div>
+    <div class="region text-center"></div>
+    <div class="detail">
+      <div class="wind-force d-flex justify-content-between">
+        <span>Windkracht</span>
+      </div>
+      <div class="wind-direction d-flex justify-content-between">
+        <span>Windrichting</span>
+      </div>
+      <div class="humidity d-flex justify-content-between">
+        <span>Luchtvochtigheid</span>
+      </div>
+    </div>
+  </div>
+  <div class="weatherapp mx-auto mt-4 px-4 py-3">
+    <table class="table text-white">
+      <thead>
+        <td>Time</td>
+        <td><sup>o</sup>C</td>
+        <td>km p/u</td>
+        <td><svg xmlns="http://www.w3.org/2000/svg" class="ionicon s-ion-icon" viewBox="0 0 512 512"><title>Send</title><path d="M476.59 227.05l-.16-.07L49.35 49.84A23.56 23.56 0 0027.14 52 24.65 24.65 0 0016 72.59v113.29a24 24 0 0019.52 23.57l232.93 43.07a4 4 0 010 7.86L35.53 303.45A24 24 0 0016 327v113.31A23.57 23.57 0 0026.59 460a23.94 23.94 0 0013.22 4 24.55 24.55 0 009.52-1.93L476.4 285.94l.19-.09a32 32 0 000-58.8z"></path></svg></td>
+        <td>%</td>
+      </thead>
+      <tbody>
+        <tr>
+          <td>17:00</td>
+          <td>-4</td>
+          <td>21</td>
+          <td>NE</td>
+          <td>85%</td>
+        </tr>
+        <tr>
+          <td>18:00</td>
+          <td>-4</td>
+          <td>21</td>
+          <td>NE</td>
+          <td>85%</td>
+        </tr>
+        <tr>
+          <td>19:00</td>
+          <td>-4</td>
+          <td>21</td>
+          <td>NE</td>
+          <td>85%</td>
+        </tr>
+        <tr>
+          <td>20:00</td>
+          <td>-4</td>
+          <td>21</td>
+          <td>NE</td>
+          <td>85%</td>
+        </tr>
+        <tr>
+          <td>21:00</td>
+          <td>-4</td>
+          <td>21</td>
+          <td>NE</td>
+          <td>85%</td>
+        </tr>
+        <tr>
+          <td>22:00</td>
+          <td>-4</td>
+          <td>21</td>
+          <td>NE</td>
+          <td>85%</td>
+        </tr>
+        <tr>
+          <td>23:00</td>
+          <td>-4</td>
+          <td>21</td>
+          <td>NE</td>
+          <td>85%</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>

@@ -13,6 +13,11 @@ const projectObjects = [
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas atque blanditiis doloribus sequi provident explicabo rerum vel reiciendis consequatur quidem.',
     link: 'todolist.html',
   },
+  {
+    title: 'Weather App',
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas atque blanditiis doloribus sequi provident explicabo rerum vel reiciendis consequatur quidem.',
+    link: 'weatherapp.html',
+  },
 ]
 
 document.addEventListener("DOMContentLoaded", function loadProjects() {
@@ -29,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function loadProjects() {
     // Make Link
     const cardLink = document.createElement('a');
     cardLink.textContent = `Go to ${project.title}`;
-    cardLink.href = `${project.title.replace(' ', '').toLowerCase(project.title)}/${project.link}`;
+    cardLink.href = `projects/${project.title.replace(' ', '').toLowerCase(project.title)}/${project.link}`;
     // Append everything
     container.append(cardDiv);
     cardDiv.append(cardTitle, cardDesc, cardLink);

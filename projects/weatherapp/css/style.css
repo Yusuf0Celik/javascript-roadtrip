@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+html,
+body {
+  background-color: #141414;
+  color: white;
+}
+
+.input {
+  width: 20rem;
+  height: 2.25rem;
+  padding: 1rem;
+  border: none;
+  outline: none;
+}
+
+.input-btn {
+  border: none;
+  border-radius: 0;
+}
+
+.input-btn svg path {
+  fill: black;
+}
+
+.weatherapp {
+  max-width: 50rem;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 1rem;
+}
+
+.table {
+  width: 100%;
+}
+
+table,
+td,
+tr {
+  border: none;
+  padding: 0 !important;
+  text-align: center;
+}
+
+.ionicon.s-ion-icon {
+  width: 1rem;
+  fill: white;
+}
