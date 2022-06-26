@@ -18,6 +18,11 @@ const projectObjects = [
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas atque blanditiis doloribus sequi provident explicabo rerum vel reiciendis consequatur quidem.',
     link: 'weatherapp.html',
   },
+  {
+    title: 'Clock',
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas atque blanditiis doloribus sequi provident explicabo rerum vel reiciendis consequatur quidem.',
+    link: 'clock.html',
+  },
 ]
 
 document.addEventListener("DOMContentLoaded", function loadProjects() {
